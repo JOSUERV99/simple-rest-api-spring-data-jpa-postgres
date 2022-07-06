@@ -3,10 +3,18 @@ package com.josuerv.sandbox.simplerestapisample.api.repository;
 import com.josuerv.sandbox.simplerestapisample.entity.ContactForm;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.webmvc.RepositoryRestController;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.Collection;
 
+/**
+ * Contact Form Repository
+ * Using JPA for query data from database
+ * Using Repository rest controller to create a HAL based endpoint for CRUD handling
+ * Using custom methods to do SQL search queries
+ *
+ * @author JOSUERV99
+ * @since 7/6/2022
+ */
 @RepositoryRestController
 public interface ContactFormRepository extends JpaRepository<ContactForm, Long> {
 

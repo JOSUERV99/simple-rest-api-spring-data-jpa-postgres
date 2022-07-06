@@ -156,6 +156,33 @@
 			"response": []
 		},
 		{
+			"name": "Edit",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Martin Gareth\",\r\n    \"email\" : \"marting.gareth.1990@whatever.com\",\r\n    \"phoneNumber\" : \"+50687654321\",\r\n    \"subject\" : \"Job offer from WhatEver\",\r\n    \"message\" : \"... an another long message!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/contactForms/1",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"contactForms",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Search by keyword",
 			"request": {
 				"method": "GET",

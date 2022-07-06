@@ -7,6 +7,13 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+/**
+ * Entity for Contact Form
+ * POJO method auto generation with Lombok
+ *
+ * @author JOSUERV99
+ * @since 7/6/2022
+ */
 @Data
 @Entity
 public class ContactForm {

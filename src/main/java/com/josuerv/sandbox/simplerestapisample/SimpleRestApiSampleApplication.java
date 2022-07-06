@@ -5,6 +5,10 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
+/**
+ * Simple REST API sample application
+ * @author JOSUERV99
+ */
 @SpringBootApplication
 @EnableAutoConfiguration
 @EnableJpaRepositories
